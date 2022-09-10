@@ -3,7 +3,7 @@ body {
     background-color: #000000;
     color: #ffffff;
 /* px is top, right, bottom, left */
-    margin: 20px, 20px, 0px, 20px;
+    margin: 20px 20px 0px 20px;
 }
 
 h1 {
@@ -11,73 +11,73 @@ h1 {
     text-align: center;
     padding: 15px;
 }
-
 /* font color should be #0D0D0D */
 h2 {
     font-size: 30px;
     color: #0d0d0d;
+    padding: 15px;
 }
-
 p {
     font-size: 24px;
-    padding: 10px, 0px, 0px, 10px;
+    padding: 10px 0px 0px 10px;
 }
-
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
 img {
     width: 250px;
     border: 10px dashed white;
 }
-
+/* div {
+    height: 125px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid white;
+} */
 /* one value for border-radius rounds for all cornerss */
 .introduction{
     border-radius: 15px;
-    margin: 15px, 0px, 0px, 0px;
+    margin: 15px 0px 0px 0px;
     line-height: 2.0;
     border: solid 2px white;
 }
 .red{
     background-color: #ff0000;
     text-align: right;
-    border-width: 0px, 0px, 2px, 5px;
+    margin: 0px 0px 0px 50px;
+    border-bottom: solid 2px white;
+    border-left: solid 5px white;
 }
 /* paragraph text should be #c4c4c4 for blue */
 .blue{
     background-color: #0000ff;
     text-align: left;
-    margin: 0px, 50px, 0px, 0px;
-    border-width: 2px, 5px, 0px, 0px;
+    margin: 0px 50px 0px 0px;
+    border-top: solid 2px white;
+    border-right: solid 5px white;
 }
 /* paragraph text should be #707070 for yellow */
 .yellow{
     background-color: #ffff00;
     text-align: right;
-    margin: 0px, 0px, 0px, 50px;
-    border-width: 0px, 0px, 2px, 5px;
+    margin: 0px 0px 0px 50px;
+    border-bottom: solid 2px white;
+    border-left: solid 5px white;
 }
 .green{
     background-color: #008500;
     text-align: left;
-    margin: 0px, 0px, 0px, 50px;
-    border-width: 0px, 0px, 2px, 5px;
+    margin: 0px 50px 0px 0px;
+    border-top: solid 2px white;
+    border-right: solid 5px white;
 }
 footer{
     background-color: blue;
     border: 5px solid white;
 }
-div {
-    height: 125px;
-    padding: 20px;
-    border: 3px solid white;
-}
-
-p {
-    border-radius: 15px;
-    margin-top: 15px;
-    line-height: 200%;
+#footer, p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0px;
 }

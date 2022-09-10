@@ -2,10 +2,9 @@ body {
     font-family: "Arial", Verdana;
     background-color: #000000;
     color: #ffffff;
-/* px is top, right, bottom, left */
     margin: 20px 20px 0px 20px;
 }
-
+/* px is top, right, bottom, left */
 h1 {
     font-size: 42px;
     text-align: center;
@@ -28,55 +27,65 @@ img {
 }
 img {
     width: 250px;
-    border: 10px dashed white;
+    border: 10px dashed #ffffff;
 }
-/* div {
-    height: 125px;
-    padding: 20px 20px 20px 20px;
-    border: 3px solid white;
-} */
-/* one value for border-radius rounds for all cornerss */
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: solid 3px #ffffff;
+}
+/* one value for border-radius rounds for all corners */
 .introduction{
     border-radius: 15px;
     margin: 15px 0px 0px 0px;
     line-height: 2.0;
-    border: solid 2px white;
+    border: solid 2px #ffffff;
 }
 .red{
     background-color: #ff0000;
     text-align: right;
     margin: 0px 0px 0px 50px;
-    border-bottom: solid 2px white;
-    border-left: solid 5px white;
+    border: none;
+    border-bottom: solid 2px #ffffff;
+    border-left: solid 5px #ffffff;
+}
+/* styles the h2 in the blue class; MUST specify div of blue class */
+div.blue > h2{
+    color: #C4C4C4;
 }
 /* paragraph text should be #c4c4c4 for blue */
 .blue{
     background-color: #0000ff;
+    color: #C4C4C4;
     text-align: left;
     margin: 0px 50px 0px 0px;
-    border-top: solid 2px white;
-    border-right: solid 5px white;
+    border: none;
+    border-top: solid 2px #ffffff;
+    border-right: solid 5px #ffffff;
 }
-/* paragraph text should be #707070 for yellow */
 .yellow{
     background-color: #ffff00;
+    color: #707070;
     text-align: right;
     margin: 0px 0px 0px 50px;
-    border-bottom: solid 2px white;
-    border-left: solid 5px white;
+    border: none;
+    border-bottom: solid 2px #ffffff;
+    border-left: solid 5px #ffffff;
 }
 .green{
     background-color: #008500;
     text-align: left;
     margin: 0px 50px 0px 0px;
-    border-top: solid 2px white;
-    border-right: solid 5px white;
+    border: none;
+    border-top: solid 2px #ffffff;
+    border-right: solid 5px #ffffff;
 }
 footer{
-    background-color: blue;
-    border: 5px solid white;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 70%);;
+    border: 5px solid #ffffff;
 }
-#footer, p {
+footer p{
     font-size: 20px;
     text-align: right;
     padding: 15px 15px 15px 0px;

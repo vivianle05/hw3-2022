@@ -11,15 +11,15 @@ h1 {
     padding: 15px;
 }
 /* font color should be #0D0D0D */
-h2 {
+h2{
     font-size: 30px;
     color: #0d0d0d;
 }
-p {
+p{
     font-size: 24px;
     padding: 10px 0px 0px 10px;
 }
-img {
+img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -27,7 +27,7 @@ img {
     border: 10px dashed #ffffff;
 }
 /* this div element is default; overrides everything below */
-div {
+div{
     min-height: 125px;
     padding: 20px;
     border: solid 3px #ffffff;
@@ -49,12 +49,8 @@ div {
     border-bottom: solid 2px #ffffff;
     border-left: solid 5px #ffffff;
 }
-/* h2 is the child of the div.blue element so  use '>' */
-.blue > h2{
-    color: #C4C4C4;
-}
 /* paragraph text should be #c4c4c4 for blue; for border to ONLY be top & right, must indicate 0px for left * bottom  */
-.blue{
+.blue{ 
     background-color: #0000ff;
     color: #C4C4C4;
     text-align: left;
@@ -63,6 +59,10 @@ div {
     border-right: solid 5px #ffffff;
     border-bottom: 0px;
     border-left: 0px;
+}
+/* h2 is the child of the div.blue element so  use '>' */
+.blue h2{
+    color: #C4C4C4;
 }
 .yellow{
     background-color: #ffff00;
@@ -95,3 +95,11 @@ footer p{
     text-align: right;
     padding: 15px 15px 15px 0px;
 }
+
+/* HW 3 Links */
+/* https://www.w3schools.com/css/css_combinators.asp */
+/* https://www.w3schools.com/css/css3_gradients.asp */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/min-height */
+/* https://teamtreehouse.com/community/how-do-i-target-the-colour-in-the-paragraph-of-footer */
+/* div.class: div is not needed unless there are multiple div tags with a specified class */
+/* i.e. if there were 2 div tags with class = 'introduction', CSS would style both */

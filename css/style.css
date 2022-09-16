@@ -60,7 +60,6 @@ div{
     border-bottom: 0px;
     border-left: 0px;
 }
-/* h2 is the child of the div.blue element so  use '>' */
 .blue h2{
     color: #C4C4C4;
 }

@@ -94,11 +94,3 @@ footer p{
     text-align: right;
     padding: 15px 15px 15px 0px;
 }
-
-/* HW 3 Links */
-/* https://www.w3schools.com/css/css_combinators.asp */
-/* https://www.w3schools.com/css/css3_gradients.asp */
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/min-height */
-/* https://teamtreehouse.com/community/how-do-i-target-the-colour-in-the-paragraph-of-footer */
-/* div.class: div is not needed unless there are multiple div tags with a specified class */
-/* i.e. if there were 2 div tags with class = 'introduction', CSS would style both */
